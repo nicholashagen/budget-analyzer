@@ -43,3 +43,5 @@
 # other
 *.iws
 
+# misc
+caldecott.log

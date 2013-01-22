@@ -1,12 +1,9 @@
 import grails.util.GrailsUtil
-import budget.analyzer.RemoteBalanceLoader
+import budget.analyzer.EmptyBalanceLoader
 
 beans = {
 
         // TODO: CONFIGURE BALANCE LOADER
-        /*
-	balanceLoader(RemoteBalanceLoader) {
-		// remoteUrl = "http:/www.change.me/balance.json"
+	balanceLoader(EmptyBalanceLoader) {
 	}
-        */
 }

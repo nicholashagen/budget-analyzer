@@ -21,7 +21,7 @@ class ExternalBalanceLoader implements BalanceLoader {
 	 * 
 	 * @return The current balance
 	 */
-	double loadBalance() {
+	Double loadBalance() {
 		// validate params
 		if (!phantomjsApplication || !phantomjsScript) {
 			throw new IllegalArgumentException("invalid app/script");
@@ -52,6 +52,6 @@ class ExternalBalanceLoader implements BalanceLoader {
 		}
 		
 		// return balance
-		return result as double;
+		return result as Double;
 	}
 }

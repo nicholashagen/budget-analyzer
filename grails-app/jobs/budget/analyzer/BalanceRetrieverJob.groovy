@@ -46,6 +46,9 @@ class BalanceRetrieverJob {
 			return
 		}
 
+		// ignore if no balance set
+		if (!balance) { return }
+		
 		// check the balance threshold and send email if threshold exceeded
 		try { checkBalanceThreshold(balance); }
 		catch (BalanceThresholdException bte) {
@@ -65,7 +68,9 @@ class BalanceRetrieverJob {
 	 */
 	def loadAndSetBalance() {
 		def balance = balanceLoader.loadBalance();
-		balanceService.setBalance(balance);
+                if (balance) {
+		    balanceService.setBalance(balance);
+                }
 		return balance;
 	}
 	

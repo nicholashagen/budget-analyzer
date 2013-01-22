@@ -30,6 +30,7 @@ class BalanceService {
 			
 			// get current balance
 			def value = balanceLoader.loadBalance();
+			if (!value) { return 0.0; }
 			
 			// save balance
 			if (balance == null) { 

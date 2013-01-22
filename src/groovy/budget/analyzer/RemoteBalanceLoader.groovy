@@ -25,7 +25,7 @@ class RemoteBalanceLoader implements BalanceLoader {
 	 * 
 	 * @return The current balance
 	 */
-	double loadBalance() {
+	Double loadBalance() {
 		
 		// validate the configuration
 		if (!remoteUrl) {
@@ -52,6 +52,6 @@ class RemoteBalanceLoader implements BalanceLoader {
 		println "Downloaded remote balance ${balance} from ${date}"
 		
 		// return the balance
-		return balance;
+		return balance as Double;
 	}
 }

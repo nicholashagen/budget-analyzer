@@ -12,5 +12,5 @@ interface BalanceLoader {
 	 * 
 	 * @return The current balance
 	 */
-	double loadBalance();
+	Double loadBalance();
 }
