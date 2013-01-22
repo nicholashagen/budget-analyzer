@@ -1,0 +1,23 @@
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li { padding-right: 15px !important; }
+/*.ui-li .ui-btn-inner { padding-right: 15px !important; } */
+.ui-icon-arrow-r { display: none; }
+
+.hasDatePicker { width: 100% !important; }
+.ui-datepicker { max-width: 100% !important; width: 100% !important; }
+
+.listview-info { margin: 0.3em 0 !important; float: left; width: 30px; text-align: center; border-radius: 10px; padding: 2px; margin-right: 10px !important; }
+.listview-info a { color: black !important; text-decoration: none !important; }
+.listview-info.bills { background-color: #81A8CE; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#81A8CE),color-stop(1,#5E87B0)); border: 1px solid #456F9A; color: white; text-shadow: 0 -1px 1px #254F7A; }
+.listview-info.deposits { background-color: #FADB4E; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#FCEDA7),color-stop(1,#FADB4E)); border: 1px solid #F7C942; color: #333; text-shadow: 0 1px 0 white; }
+.listview-info.budget { background-color: #333; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#555),color-stop(1,#333)); border: 1px solid #222; color: white; text-shadow: 0 -1px 1px black; }
+.listview-info.payments { background-color: #9d261d; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#9d261d),color-stop(1,#6b050d)); border: 1px solid #8c261d; color: white; text-shadow: 0 -1px 1px #7a100e; }
+.listview-info-p { margin-top: 0.8em !important; }
+.listview-content { margin: 0.3em 0 !important; line-height: 1.5em; }
+.listview-note { margin: 0.3em 0 !important; width: 90px !important; line-height: 1.5em; }
+.listview-note-p { margin-top: 0.8em !important; }
+
+.ui-link { text-decoration: none; }
+
+.nolink { color: inherit !important; text-decoration: none; display: block; }
+
+.ui-li-aside.buttons { margin-top: -3px !important; position: absolute; top: 0; right: 0; }
