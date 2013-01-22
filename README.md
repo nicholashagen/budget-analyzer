@@ -10,13 +10,13 @@ against it.  This way you always know how much money you may or may not have at 
 especially useful when you want to purchase something but are not sure if you will have enough money to cover you until
 your next paycheck.  With this application, you simply update your balance and check the associated date.
 
-= Downloading
+# Downloading
 
 ```
 #> git clone <url>
 ```
 
-= Setup
+# Setup
 
 Before using this application, you must configure certain parts of it.
 
@@ -37,13 +37,13 @@ downloads your balance.  For example, I use Phantom JS on a remote system that l
 via jQuery, and writes a JSON file to my webserver.  The second type of loader is an external remote loader that launches 
 Phantom JS with a given script to download the balance.  This expects Phantom JS to be running on the same system.
 
-= Running
+# Running
 
 ```
 #> grails run-app
 ```
 
-= Viewing
+# Viewing
 
 Simply open your browser to ``http://localhost:8080/budget-analyzer``.  This will open the overview controller by
 default.  If you did not use the auto-download balance option, you can click on the balance to open a dialog allowing
