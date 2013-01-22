@@ -48,3 +48,7 @@ Phantom JS with a given script to download the balance.  This expects Phantom JS
 Simply open your browser to ``http://localhost:8080/budget-analyzer``.  This will open the overview controller by
 default.  If you did not use the auto-download balance option, you can click on the balance to open a dialog allowing
 you to set the current balance.
+
+# Screenshot
+
+![Screenshot](https://raw.github.com/nicholashagen/budget-analyzer/master/screenshot.png)
