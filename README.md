@@ -49,6 +49,13 @@ Simply open your browser to ``http://localhost:8080/budget-analyzer``.  This wil
 default.  If you did not use the auto-download balance option, you can click on the balance to open a dialog allowing
 you to set the current balance.
 
+# More Information
+
+For more information, see my Blog series:
+
+http://www.znetdevelopment.com/blogs/2013/01/23/budget-analyzer-application-server-side-via-grails/
+http://www.znetdevelopment.com/blogs/2013/01/24/budget-analyzer-application-client-side-via-jquery-mobile/
+
 # Screenshot
 
 ![Screenshot](https://raw.github.com/nicholashagen/budget-analyzer/master/screenshot.png)
